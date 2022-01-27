@@ -17,4 +17,4 @@ function TodoList({ todos, onDelete, onToggle }) {
   );
 }
 
-export default TodoList;
+export default React.memo(TodoList);

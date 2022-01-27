@@ -22,4 +22,4 @@ function TodoListItem({ todo, onDelete, onToggle }) {
   );
 }
 
-export default TodoListItem;
+export default React.memo(TodoListItem);
